@@ -10,5 +10,30 @@
 
 .inside {
   background-image: url("../images/open.png"); }
+  .inside .lounge {
+    bottom: 219px;
+    right: 208px;
+    width: 106px; }
+  .inside .bar {
+    top: 156px;
+    left: 339px;
+    height: 70px; }
+  .inside .suite {
+    top: 88px;
+    right: 236px;
+    width: 122px; }
+  .inside .reception {
+    top: 241px;
+    left: 308px; }
+  .inside .maze {
+    top: 370px;
+    left: 294px;
+    width: 200px;
+    height: 90px; }
+
+#back {
+  position: absolute;
+  left: 35px;
+  top: 30px; }
 
 /*# sourceMappingURL=inside.css.map */

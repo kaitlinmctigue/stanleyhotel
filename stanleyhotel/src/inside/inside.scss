@@ -3,4 +3,40 @@
 .inside {
   background-image: url("../images/open.png");
   @extend %hotel-styles;
+
+  .lounge {
+    bottom: 219px;
+    right: 208px;
+    width: 106px;
+  }
+
+  .bar {
+    top: 156px;
+    left: 339px;
+    height: 70px;
+  }
+
+  .suite {
+    top: 88px;
+    right: 236px;
+    width: 122px;
+  }
+
+  .reception {
+    top: 241px;
+    left: 308px;
+  }
+
+  .maze {
+    top: 370px;
+    left: 294px;
+    width: 200px;
+    height: 90px;
+  }
+}
+
+#back {
+  position: absolute;
+  left: 35px;
+  top: 30px;
 }

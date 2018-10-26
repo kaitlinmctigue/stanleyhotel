@@ -7,13 +7,15 @@
   background: transparent;
   cursor: pointer;
   text-align: center;
+  text-transform: lowercase;
 
   &:hover {
-    background: transparentize($color__white, .8);
+    background: transparentize($color__white, .9);
   }
 }
 
 .button--room {
   font-size: 16px;
   padding: 10px;
+  position: absolute;
 }
