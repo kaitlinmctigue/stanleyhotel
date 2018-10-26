@@ -1,0 +1,20 @@
+.outside {
+  position: absolute;
+  top: calc(50% - 250px);
+  left: calc(50% - 400px);
+  width: 800px;
+  height: 500px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+.outside {
+  background-image: url("../images/closed.png"); }
+
+#enter {
+  width: 150px;
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 75px); }
+
+/*# sourceMappingURL=outside.css.map */

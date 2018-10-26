@@ -1,0 +1,14 @@
+.inside {
+  position: absolute;
+  top: calc(50% - 250px);
+  left: calc(50% - 400px);
+  width: 800px;
+  height: 500px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+.inside {
+  background-image: url("../images/open.png"); }
+
+/*# sourceMappingURL=inside.css.map */

@@ -1,0 +1,14 @@
+@import "../styles/vars";
+
+.outside {
+  background-image: url("../images/closed.png");
+  @extend %hotel-styles;
+}
+
+#enter {
+  $width: 150px;
+  width: $width;
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - #{$width / 2});
+}

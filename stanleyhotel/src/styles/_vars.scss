@@ -1,0 +1,25 @@
+$font-family: Helvetica, Arial, sans-serif;
+$font-family--fun: Courier, "Courier New", source-code-pro, Menlo, Monaco, Consolas, monospace;
+
+//color
+$color__white: #fff;
+$color__red: #4B090B;
+
+$color__text--light: $color__white;
+$color__border: #cbcbcb;
+
+//layout
+$hotel-width: 800px;
+$hotel-height: 500px;
+
+//mixins
+%hotel-styles {
+  position: absolute;
+  top: calc(50% - #{$hotel-height / 2});
+  left: calc(50% - #{$hotel-width / 2});
+  width: $hotel-width;
+  height: $hotel-height;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}

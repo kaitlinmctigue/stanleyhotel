@@ -1,0 +1,6 @@
+@import "../styles/vars";
+
+.inside {
+  background-image: url("../images/open.png");
+  @extend %hotel-styles;
+}

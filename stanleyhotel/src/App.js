@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import Outside from "./outside.js";
-import Inside from "./inside";
+import Outside from "./outside/outside.js";
+import Inside from "./inside/inside";
 
 class App extends Component {
   render() {
