@@ -31,11 +31,17 @@ const rooms = [
     }
 ];
 
-function Room(props) {
+function openModal(props) {
     console.log(props);
+}
+
+function Room(props) {
+    var open = false;
     return(
         <div key={props.id}>
-            <button id={props.id} className={"button button--room " + props.class}>
+            <button id={props.id}
+                    onClick={openModal(props)}
+                    className={"button button--room " + props.class}>
                 {props.title}
             </button>
         </div>
