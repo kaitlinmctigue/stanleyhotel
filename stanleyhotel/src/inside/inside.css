@@ -36,4 +36,16 @@
   left: 35px;
   top: 30px; }
 
+.modal-backdrop {
+  background: transparent; }
+
+.room-modal {
+  text-align: center; }
+  .room-modal__title {
+    font-family: Courier, "Courier New", source-code-pro, Menlo, Monaco, Consolas, monospace;
+    font-size: 24px; }
+  .room-modal__desc {
+    font-family: Courier, "Courier New", source-code-pro, Menlo, Monaco, Consolas, monospace;
+    font-size: 16px; }
+
 /*# sourceMappingURL=inside.css.map */

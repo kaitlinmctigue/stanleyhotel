@@ -40,3 +40,26 @@
   left: 35px;
   top: 30px;
 }
+
+//modal
+.modal-backdrop {
+  background: transparent;
+}
+
+.room-modal {
+  text-align: center;
+
+  &__title {
+    font-family: $font-family--fun;
+    font-size: 24px;
+  }
+
+  &__desc {
+    font-family: $font-family--fun;
+    font-size: 16px;
+  }
+
+  &__img {
+
+  }
+}
