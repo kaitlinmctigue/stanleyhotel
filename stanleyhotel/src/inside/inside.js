@@ -5,13 +5,14 @@ import Button from 'react-bootstrap/lib/Button';
 import '../styles/index.css';
 import './inside.css';
 
-class Inside extends Component {
+class Inside extends React.Component {
     constructor(props, context) {
         super(props, context);
 
         this.state = {
             show: false,
-            selectedItem: 0
+            selectedItem: 0,
+            selectedTitle: ""
         };
 
         this.handleShow = this.handleShow.bind(this);
@@ -48,12 +49,13 @@ class Inside extends Component {
 
     handleClose() {
         this.setState({ show: false });
-        console.log(this.state);
     }
 
-    handleShow() {
+    handleShow(id) {
+        console.log(id);
+        this.setState({selectedID: id});
         this.setState({show: true});
-        console.log(this.state);
+        this.setState({selectedTitle: this.rooms[id].title});
     }
 
     render() {
@@ -68,7 +70,7 @@ class Inside extends Component {
                     {this.rooms.map(room => (
                         <div key={room.id}>
                             <button id={room.id}
-                                    onClick={this.handleShow}
+                                    onClick={() => this.handleShow(room.id)}
                                     className={"button button--room " + room.class}>
                                 {room.title}
                             </button>
@@ -76,7 +78,8 @@ class Inside extends Component {
                     ))}
                     <Modal show={this.state.show} onHide={this.handleClose} animation={false}>
                         <div className={"room-modal"}>
-                            modal
+                            {/*{this.rooms[this.state.selectedItem].title}*/}
+                            {this.state.selectedTitle}
                         </div>
                     </Modal>
                 </div>
