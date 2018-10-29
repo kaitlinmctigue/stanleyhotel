@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/stanleyhotel/precache-manifest.7ad0b0821703bfe356c0e7862d8174fb.js"
+  "/stanleyhotel/precache-manifest.ffcbbd6a57102e8d8e809f5e3a89baae.js"
 );
 
 workbox.clientsClaim();
