@@ -1,0 +1,23 @@
+{
+  "main.css": "/stanleyhotel/static/css/main.cad0f57a.chunk.css",
+  "main.js": "/stanleyhotel/static/js/main.b2b648ca.chunk.js",
+  "main.js.map": "/stanleyhotel/static/js/main.b2b648ca.chunk.js.map",
+  "static/css/1.81a09fec.chunk.css": "/stanleyhotel/static/css/1.81a09fec.chunk.css",
+  "static/js/1.322304a0.chunk.js": "/stanleyhotel/static/js/1.322304a0.chunk.js",
+  "static/js/1.322304a0.chunk.js.map": "/stanleyhotel/static/js/1.322304a0.chunk.js.map",
+  "runtime~main.js": "/stanleyhotel/static/js/runtime~main.b772ac66.js",
+  "runtime~main.js.map": "/stanleyhotel/static/js/runtime~main.b772ac66.js.map",
+  "static/media/index.css": "/stanleyhotel/static/media/bg.f038a4bf.jpg",
+  "static/media/lobby.jpg": "/stanleyhotel/static/media/lobby.89151899.jpg",
+  "static/media/lounge.jpg": "/stanleyhotel/static/media/lounge.e9fe5a77.jpg",
+  "static/media/maze.jpg": "/stanleyhotel/static/media/maze.c847b324.jpg",
+  "static/media/room.jpg": "/stanleyhotel/static/media/room.d9606e14.jpg",
+  "static/media/inside.css": "/stanleyhotel/static/media/paper.4fe91c66.svg",
+  "static/media/outside.css": "/stanleyhotel/static/media/closed.7575b840.png",
+  "static/media/bar.jpg": "/stanleyhotel/static/media/bar.d246e03b.jpg",
+  "static/css/main.cad0f57a.chunk.css.map": "/stanleyhotel/static/css/main.cad0f57a.chunk.css.map",
+  "static/css/1.81a09fec.chunk.css.map": "/stanleyhotel/static/css/1.81a09fec.chunk.css.map",
+  "index.html": "/stanleyhotel/index.html",
+  "precache-manifest.db4ef118243f681c024693b6c2461fd4.js": "/stanleyhotel/precache-manifest.db4ef118243f681c024693b6c2461fd4.js",
+  "service-worker.js": "/stanleyhotel/service-worker.js"
+}
