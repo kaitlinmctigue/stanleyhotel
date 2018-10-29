@@ -74,7 +74,9 @@
   margin-left: 9%; }
   .room-modal__title {
     font-family: Courier, "Courier New", source-code-pro, Menlo, Monaco, Consolas, monospace;
-    font-size: 24px; }
+    font-size: 24px;
+    text-transform: lowercase;
+    margin: 5px 0 10px 0; }
   .room-modal__desc {
     font-family: Courier, "Courier New", source-code-pro, Menlo, Monaco, Consolas, monospace;
     font-size: 16px; }
