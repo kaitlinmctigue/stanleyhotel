@@ -26,4 +26,13 @@ body {
   background-position: center center;
   background-repeat: no-repeat; }
 
+a.link {
+  color: #fff;
+  background: #4B090B;
+  margin: 0 auto;
+  padding: 0 10px; }
+  a.link:hover {
+    color: #fff;
+    background: #620c0e; }
+
 /*# sourceMappingURL=index.css.map */

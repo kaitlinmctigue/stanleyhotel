@@ -86,6 +86,9 @@ class Inside extends Component {
                     </button>
                 </Link>
                 <div className="inside fadeIn fadeOut" id="reception">
+                    <div className={"inside__text"}>
+                        This following map is The Stanley Hotel reimagined through the eyes of King when he visited the hotel for the first time, and which rooms may have inspired key places and events from the book.
+                    </div>
                     {this.rooms.map(room => (
                         <div key={room.id}>
                             <button id={room.id}
@@ -95,7 +98,10 @@ class Inside extends Component {
                             </button>
                         </div>
                     ))}
-                    <Modal show={this.state.show} onHide={this.handleClose} animation={false}>
+                    <Modal show={this.state.show}
+                           onHide={this.handleClose}
+                           bsSize="large"
+                           animation={false}>
                         <div className={"room-modal"}>
                             <div className={"room-modal__img"}>
                                 <img src={this.state.selectedImg}></img>

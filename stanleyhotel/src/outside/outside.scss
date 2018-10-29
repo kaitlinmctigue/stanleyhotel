@@ -3,6 +3,27 @@
 .outside {
   background-image: url("../images/closed.png");
   @extend %hotel-styles;
+
+  &__text {
+    margin-top: -20px;
+    @extend %text-styles;
+
+    &__title {
+      @extend %text-styles;
+      text-transform: lowercase;
+      background: $color__red url("../images/open.png") center center;
+      width: auto;
+      display: inline;
+      margin: 0 auto;
+      padding: 0 10px;
+    }
+
+    &__desc {
+      @extend %text-styles;
+      margin-top: 10px;
+      font-size: 14px;
+    }
+  }
 }
 
 #enter {

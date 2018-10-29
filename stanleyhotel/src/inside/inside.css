@@ -8,8 +8,20 @@
   background-repeat: no-repeat;
   background-position: center center; }
 
+.inside__text {
+  font-family: Courier, "Courier New", source-code-pro, Menlo, Monaco, Consolas, monospace;
+  color: #fff;
+  text-align: center;
+  text-decoration: none; }
+  .inside__text:hover {
+    text-decoration: none; }
+
 .inside {
   background-image: url("../images/open.png"); }
+  .inside__text {
+    margin-top: -20px;
+    font-size: 14px;
+    padding: 0 50px; }
   .inside .lounge {
     bottom: 219px;
     right: 208px;
@@ -17,7 +29,8 @@
   .inside .bar {
     top: 156px;
     left: 339px;
-    height: 70px; }
+    height: 70px;
+    width: 125px; }
   .inside .suite {
     top: 88px;
     right: 236px;
@@ -39,13 +52,39 @@
 .modal-backdrop {
   background: transparent; }
 
+.modal {
+  overflow: hidden; }
+
+.modal-dialog {
+  border: none;
+  background: transparent url("../images/paper.svg") no-repeat center center;
+  background-size: contain;
+  width: 800px;
+  height: 550px; }
+  .modal-dialog .modal-content {
+    background: transparent;
+    border: none; }
+
 .room-modal {
-  text-align: center; }
+  text-align: center;
+  height: 445px;
+  margin-top: 57px;
+  overflow-y: auto;
+  width: 85%;
+  margin-left: 9%; }
   .room-modal__title {
     font-family: Courier, "Courier New", source-code-pro, Menlo, Monaco, Consolas, monospace;
     font-size: 24px; }
   .room-modal__desc {
     font-family: Courier, "Courier New", source-code-pro, Menlo, Monaco, Consolas, monospace;
     font-size: 16px; }
+  .room-modal__img {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 10px; }
+    .room-modal__img img {
+      width: 450px;
+      display: inline-block;
+      max-width: 100%; }
 
 /*# sourceMappingURL=inside.css.map */

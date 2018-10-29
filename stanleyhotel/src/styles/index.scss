@@ -11,3 +11,15 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
 }
+
+a.link {
+  color: $color__white;
+  background: $color__red;
+  margin: 0 auto;
+  padding: 0 10px;
+
+  &:hover {
+    color: $color__white;
+    background: lighten($color__red, 5%);
+  }
+}

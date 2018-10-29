@@ -4,6 +4,13 @@
   background-image: url("../images/open.png");
   @extend %hotel-styles;
 
+  &__text {
+    margin-top: -20px;
+    @extend %text-styles;
+    font-size: 14px;
+    padding: 0 50px;
+  }
+
   .lounge {
     bottom: 219px;
     right: 208px;
@@ -14,6 +21,7 @@
     top: 156px;
     left: 339px;
     height: 70px;
+    width: 125px;
   }
 
   .suite {
@@ -46,8 +54,30 @@
   background: transparent;
 }
 
+.modal {
+  overflow: hidden;
+}
+
+.modal-dialog {
+  border: none;
+  background: transparent url("../images/paper.svg") no-repeat center center;
+  background-size: contain;
+  width: 800px;
+  height: 550px;
+
+  .modal-content {
+    background: transparent;
+    border: none;
+  }
+}
+
 .room-modal {
   text-align: center;
+  height: 445px;
+  margin-top: 57px;
+  overflow-y: auto;
+  width: 85%;
+  margin-left: 9%;
 
   &__title {
     font-family: $font-family--fun;
@@ -60,6 +90,14 @@
   }
 
   &__img {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 10px;
 
+    img {
+      width: 450px;
+      display: inline-block;
+      max-width: 100%;
+    }
   }
 }

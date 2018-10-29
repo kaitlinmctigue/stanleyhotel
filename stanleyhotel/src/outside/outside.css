@@ -8,8 +8,28 @@
   background-repeat: no-repeat;
   background-position: center center; }
 
+.outside__text, .outside__text__title, .outside__text__desc {
+  font-family: Courier, "Courier New", source-code-pro, Menlo, Monaco, Consolas, monospace;
+  color: #fff;
+  text-align: center;
+  text-decoration: none; }
+  .outside__text:hover, .outside__text__title:hover, .outside__text__desc:hover {
+    text-decoration: none; }
+
 .outside {
   background-image: url("../images/closed.png"); }
+  .outside__text {
+    margin-top: -20px; }
+    .outside__text__title {
+      text-transform: lowercase;
+      background: #4B090B url("../images/open.png") center center;
+      width: auto;
+      display: inline;
+      margin: 0 auto;
+      padding: 0 10px; }
+    .outside__text__desc {
+      margin-top: 10px;
+      font-size: 14px; }
 
 #enter {
   width: 150px;

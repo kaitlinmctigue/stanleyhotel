@@ -23,3 +23,14 @@ $hotel-height: 500px;
   background-repeat: no-repeat;
   background-position: center center;
 }
+
+%text-styles {
+  font-family: $font-family--fun;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
