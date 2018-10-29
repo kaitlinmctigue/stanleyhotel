@@ -1,7 +1,7 @@
 {
   "main.css": "/stanleyhotel/static/css/main.cad0f57a.chunk.css",
-  "main.js": "/stanleyhotel/static/js/main.b2b648ca.chunk.js",
-  "main.js.map": "/stanleyhotel/static/js/main.b2b648ca.chunk.js.map",
+  "main.js": "/stanleyhotel/static/js/main.2d868d71.chunk.js",
+  "main.js.map": "/stanleyhotel/static/js/main.2d868d71.chunk.js.map",
   "static/css/1.81a09fec.chunk.css": "/stanleyhotel/static/css/1.81a09fec.chunk.css",
   "static/js/1.322304a0.chunk.js": "/stanleyhotel/static/js/1.322304a0.chunk.js",
   "static/js/1.322304a0.chunk.js.map": "/stanleyhotel/static/js/1.322304a0.chunk.js.map",
@@ -18,6 +18,6 @@
   "static/css/main.cad0f57a.chunk.css.map": "/stanleyhotel/static/css/main.cad0f57a.chunk.css.map",
   "static/css/1.81a09fec.chunk.css.map": "/stanleyhotel/static/css/1.81a09fec.chunk.css.map",
   "index.html": "/stanleyhotel/index.html",
-  "precache-manifest.db4ef118243f681c024693b6c2461fd4.js": "/stanleyhotel/precache-manifest.db4ef118243f681c024693b6c2461fd4.js",
+  "precache-manifest.1cd23ac140a5789af0159b668a4a8169.js": "/stanleyhotel/precache-manifest.1cd23ac140a5789af0159b668a4a8169.js",
   "service-worker.js": "/stanleyhotel/service-worker.js"
 }
