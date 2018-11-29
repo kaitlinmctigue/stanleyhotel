@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "3968dac2bc128b01da08",
+    "revision": "c2617de7f68aee7089fe",
     "url": "/stanleyhotel/static/css/main.1c9a4d1c.chunk.css"
   },
   {
-    "revision": "3968dac2bc128b01da08",
-    "url": "/stanleyhotel/static/js/main.3968dac2.chunk.js"
+    "revision": "c2617de7f68aee7089fe",
+    "url": "/stanleyhotel/static/js/main.c2617de7.chunk.js"
   },
   {
     "revision": "1bae6ccd3712c29ac68d",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/stanleyhotel/static/media/paper.4fe91c66.svg"
   },
   {
-    "revision": "ef192a10254874d7aad34ac7325f8045",
+    "revision": "a091980eac2c40717826d8c196908776",
     "url": "/stanleyhotel/index.html"
   }
 ];
