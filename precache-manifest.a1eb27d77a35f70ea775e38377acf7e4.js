@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "8915189914628001c47e43bb839389f7",
-    "url": "/stanleyhotel/static/media/lobby.89151899.jpg"
-  },
-  {
-    "revision": "6237afad5fd9fbef52bb",
+    "revision": "3968dac2bc128b01da08",
     "url": "/stanleyhotel/static/css/main.1c9a4d1c.chunk.css"
   },
   {
-    "revision": "4fe91c660f1f682264e5fe4be4828a83",
-    "url": "/stanleyhotel/static/media/paper.4fe91c66.svg"
+    "revision": "3968dac2bc128b01da08",
+    "url": "/stanleyhotel/static/js/main.3968dac2.chunk.js"
   },
   {
-    "revision": "95eed435f17bcb7cf39a",
-    "url": "/stanleyhotel/static/js/1.95eed435.chunk.js"
+    "revision": "1bae6ccd3712c29ac68d",
+    "url": "/stanleyhotel/static/css/1.f0ede56d.chunk.css"
+  },
+  {
+    "revision": "1bae6ccd3712c29ac68d",
+    "url": "/stanleyhotel/static/js/1.1bae6ccd.chunk.js"
   },
   {
     "revision": "b772ac66791c479895e5",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/stanleyhotel/static/media/bar.d246e03b.jpg"
   },
   {
-    "revision": "6237afad5fd9fbef52bb",
-    "url": "/stanleyhotel/static/js/main.6237afad.chunk.js"
+    "revision": "8915189914628001c47e43bb839389f7",
+    "url": "/stanleyhotel/static/media/lobby.89151899.jpg"
   },
   {
     "revision": "e9fe5a775d4630b290a29922e4c1bacd",
@@ -52,11 +52,11 @@ self.__precacheManifest = [
     "url": "/stanleyhotel/static/media/closed.7575b840.png"
   },
   {
-    "revision": "95eed435f17bcb7cf39a",
-    "url": "/stanleyhotel/static/css/1.f0ede56d.chunk.css"
+    "revision": "4fe91c660f1f682264e5fe4be4828a83",
+    "url": "/stanleyhotel/static/media/paper.4fe91c66.svg"
   },
   {
-    "revision": "4e2f938d3699fe31a511854d7dd02aee",
+    "revision": "ef192a10254874d7aad34ac7325f8045",
     "url": "/stanleyhotel/index.html"
   }
 ];
